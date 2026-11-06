@@ -1,3 +1,5 @@
+import CarregamentoUnico from "./exercicio1/CarregamentoUnico.jsx";
+
 export default function App() {
   return (
     <main className="app">
@@ -5,6 +7,8 @@ export default function App() {
         <h1>Atividades Práticas</h1>
         <p>useEffect e comunicação entre componentes com Event Bus</p>
       </header>
+
+      <CarregamentoUnico />
     </main>
   );
 }

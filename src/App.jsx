@@ -1,4 +1,5 @@
 import CarregamentoUnico from "./exercicio1/CarregamentoUnico.jsx";
+import ExercicioProp from "./exercicio2/ExercicioProp.jsx";
 
 export default function App() {
   return (
@@ -9,6 +10,7 @@ export default function App() {
       </header>
 
       <CarregamentoUnico />
+      <ExercicioProp />
     </main>
   );
 }

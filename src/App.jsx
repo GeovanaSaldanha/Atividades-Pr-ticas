@@ -1,5 +1,6 @@
 import CarregamentoUnico from "./exercicio1/CarregamentoUnico.jsx";
 import ExercicioProp from "./exercicio2/ExercicioProp.jsx";
+import ExercicioEventBus from "./exercicio3/ExercicioEventBus.jsx";
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
 
       <CarregamentoUnico />
       <ExercicioProp />
+      <ExercicioEventBus />
     </main>
   );
 }
